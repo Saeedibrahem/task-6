@@ -1,0 +1,10 @@
+.carousel-item {
+  height: 100vh;
+}
+.carousel-item img {
+  object-fit: cover;
+}
+.card img {
+  height: 200px !important;
+  object-fit: cover;
+}

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+video {
+  inset: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  clip-path: polygon(0 0, 75% 0, 60% 100%, 0 100%);
+}
+
+.overlay-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgba(42, 85, 85, 0.855);
+  z-index: 1;
+  clip-path: polygon(75% 0px, 100% 0px, 100% 100%, 60% 100%);
+}
+.section__title {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+body {
+  font-family: "dm sans";
+
+}
+.section__title h2 {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 4rem;
+  font-family: "Tinos";
+
+  color: white;
+}
+.section__title p {
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+.section__title input {
+  border: 1px  solid red ;
+  border-radius: 9px;
+  outline: yellow;
+}
+.icons {
+  z-index: 5;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 5%;
+  gap: 30px;
+  flex-direction: column;
+}
+.icon {
+  color: white;
+  background-color: black;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  color: white;
+}
