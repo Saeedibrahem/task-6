@@ -138,4 +138,7 @@ body::before {
   html {
     font-size: 80%;
   }
+  .row{
+    flex-wrap: nowrap !important;
+  }
 }
