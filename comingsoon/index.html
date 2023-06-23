@@ -11,31 +11,35 @@
 </head>
 
 <body>
-  <div style="height: 100vh" class="position-relative bg-danger">
-    <div class="overlay"></div>
-    <div class="overlay-2"></div>
+  <div style="height: 100vh" class="position-relative">
     <video loop autoplay playsinline muted class="position-absolute">
       <source src="./assets/images/1524051065.mp4" type="video/mp4" class="position-absolute" />
     </video>
-    <div class="container section__title">
-      <div class="col-5">
-        <h2>Our Website is Coming Soon</h2>
-        <p>
+    <div class=" masthead section__title">
+      <div class="col-5 ">
+        <h2 class="mb-3">Our Website is Coming Soon</h2>
+        <p class="mb-5">
           We're working hard to finish the development of this site. Sign up
           below to receive updates and to be notified when we launch!
         </p>
-        <input class="p-2 " type="email" placeholder="enter email address" />
-        <button class="btn btn-success">Notify me</button>
+        <div class=" row ">
+          <div class="col-8">
+            <input class="p-3  w-100 " type="email" placeholder="Enter email address..." />
+          </div>
+          <div class="col-auto  ">
+            <button class="btn btn-success p-3  w-100 text-uppercase ">Notify me</button>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="icons d-flex">
-      <div class="icon d-flex justify-content-center align-items-center">
+    <div class="icons d-flex flex-row flex-lg-column position-absolute  ">
+      <div class="icon m-3 d-flex justify-content-center align-items-center">
         <i class="fab fa-twitter"></i>
       </div>
-      <div class="icon d-flex justify-content-center align-items-center">
+      <div class="icon m-3 d-flex justify-content-center align-items-center">
         <i class="fab fa-facebook-f"></i>
       </div>
-      <div class="icon d-flex justify-content-center align-items-center">
+      <div class="icon m-3 d-flex justify-content-center align-items-center">
         <i class="fab fa-instagram"></i>
       </div>
     </div>
